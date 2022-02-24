@@ -227,3 +227,23 @@ articl
     margin-top: 7rem;
     text-align: center;
 }
+.immagine-home{
+    width: auto;
+    margin: 7rem -1rem;
+}
+.nome-home{
+    font-weight: normal;
+    font-size: 56pt;
+    border: 5px solid red;
+}
+
+.w3-display-middle- {
+    position: absolute;
+    top: 36%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.descrizione-home{
+    text-align: justify;
+}
