@@ -102,7 +102,7 @@
 }
 
 
-articl
+
 .lore-descrizione{
     padding-bottom: 2rem;
 }
@@ -143,6 +143,12 @@ articl
 .bg-lightgrey{
     background-color: #CBCBCB;
 }
+.text-yellow{
+    color: yellow;
+}
+.text-black{
+    color: black;
+}
 .bg-black{
     background-color: black;
 }
@@ -150,7 +156,8 @@ articl
     background-color: #333333;
 }
 .tarocchi{
-    margin-top: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -229,11 +236,12 @@ articl
 }
 .immagine-home{
     width: auto;
-    margin: 7rem -1rem;
+    margin: 15rem 3rem;
+    text-align: center;
 }
 .nome-home{
     font-weight: normal;
-    font-size: 56pt;
+    font-size: 32pt;
     border: 5px solid red;
 }
 
@@ -262,7 +270,7 @@ articl
     margin-top: 2rem;
 }
 .text-red{
-    color: rgb(219, 10, 10);
+    color: rgb(184, 33, 10);
 }
 .hr-white {
     margin-top: -1rem;
@@ -273,4 +281,7 @@ articl
 .immagine-pg{
     margin-left: 6rem;
 }
-
+.info-game{
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+}
