@@ -244,6 +244,33 @@ articl
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
 }
-.descrizione-home{
-    text-align: justify;
+.personaggi-pagina{
+    margin-top: 6rem;
+    border: 10px solid;
 }
+.row-pg{
+    margin-bottom: 3rem;
+}
+.text-white-centrato{
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 50pt;
+}
+.personaggio-testo{
+    text-align: justify;
+    margin-top: 2rem;
+}
+.text-red{
+    color: rgb(219, 10, 10);
+}
+.hr-white {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid white;
+}
+.immagine-pg{
+    margin-left: 6rem;
+}
+
