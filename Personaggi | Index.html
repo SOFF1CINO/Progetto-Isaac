@@ -16,45 +16,43 @@
     <link rel="icon" href="isaac-pg-ingame.png">
 </head>
 <body class="d-flex flex-column min-vh-100">
-<div class="container">
+<div class="container-fluid">
+
 <!-- NAVBAR -->
-    <div class="row fixed-top"> 
-        <div class="col-12">
-            <div class="colonna-statica bg-black navbar ">
-                <img src="TBOI_logo.png" class="logo p-0" alt="Logo">
-                <div class="link-navbar pr-5">
-                    <a href="index.html" class="link px-4">Home</a>
-                    <a href="Oggetti.html" class="link px-4">Personaggi</a>
-                    <a href="#" class="link px-4">Oggetti</a>
-                    <a href="#" class="link px-4">Stanze</a>
-                    <a href="#" class="link px-4">Boss</a>
-                </div>
-                <h3 class="navbar-titolo align-items-center pl-3 text-white">The binding of Isaac</h3>
-            </div>
+        
+        <div class="row p-4 bg-black">
+            <div class="col-sm-2"><img src="TBOI_logo.png" class="w-100" alt="Logo"></div>
+            <div class="col-sm-8 mt-3" style="text-align: center;">
+                <button class="btn btn-outline-danger"><a href="index.html" class="mx-4 link">Home</a></button>
+                <button class="btn btn-outline-danger"><a href="Personaggi | Index.html" class="mx-4 link">Personaggi</a></button>
+                <button class="btn btn-outline-danger"><a href="Oggetti.html" class="mx-4 link">Oggetti</a></button>
+                <button class="btn btn-outline-danger"><a href="#" class="mx-4 link">Stanze</a></button>
+                <button class="btn btn-outline-danger"><a href="#" class="mx-4 link">Boss</a></div></button>
+            <div class="col-sm-2 mt-3" style="text-align: center;"><h3 class="">The binding of Isaac</h3></div>
         </div>
-    </div>
+        
 <!-- CONTENUTO PAGINA -->
-    <div class="row intestazione">
-      <h2 class="intestazione-pg text-white text-justify center">The Binding of Isaac è un gioco colmo di personaggi tutti diversi e da scoprire! </h2>
-    </div>
+    <!-- <div class="row" style="text-align: center;">
+        <div class="col-8 offset-2"><h2 class="intestazione-pg text-white text-justify center">The Binding of Isaac è un gioco colmo di personaggi tutti diversi e da scoprire! </h2></div>
+    </div> -->
     <div class="row contenuto tarocchi ">
-        <div class="col-3 p-3"><img src="Tarocco-Isaac.png" class="w-100 tarocchi-card px-1" alt=""></div>
-        <div class="col-3 p-3"><img src="Tarocco-Magdalene.png" alt="" class="w-100 tarocchi-card px-1"></div>
-        <div class="col-3 p-3"><img src="Tarocco-Azazel.png" alt="" class="w-100 tarocchi-card px-1"></div>
-        <div class="col-3 p-3"><img src="Tarocco-TheLost.png" alt="" class="w-100 tarocchi-card px-1"></div>
+        <div class="col-3"><img src="Tarocco-Isaac.png" class="tarocchi-card" style="margin-left: 21rem;" alt=""></div>
+        <div class="col-3"><img src="Tarocco-Magdalene.png" alt="" style="margin-left: 11rem;" class="tarocchi-card"></div>
+        <div class="col-3"><img src="Tarocco-Azazel.png" alt="" style="margin-left: 2rem;" class="tarocchi-card"></div>
+        <div class="col-3"><img src="Tarocco-TheLost.png" style="margin-left: -7rem;" alt="" class="tarocchi-card"></div>
     </div>
     <div class="row contenuto">
-        <div class="col-3"><button class="glow-on-hover" type="button"><a href="Personaggi | Isaac.html">Scopri Isaac!</a></button></div>
-        <div class="col-3"><button class="glow-on-hover" type="button"><a href="Personaggi | Magdalene.html">Scopri Magdalene!</a></button></div>
-        <div class="col-3"><button class="glow-on-hover" type="button"><a href="Personaggi | Azazel.html">Scopri Azazel!</a></button></div>
-        <div class="col-3"><button class="glow-on-hover" type="button"><a href="Personaggi | TheLost.html">Scopri The Lost!</a></button></div>
+        <div class="col-3"><button class="glow-on-hover" style="margin-left: 26rem; margin-top: -1rem;" type="button"><a href="Personaggi | Isaac.html">Scopri Isaac!</a></button></div>
+        <div class="col-3"><button class="glow-on-hover" style="margin-top: -1rem; margin-left: 16rem;" type="button"><a href="Personaggi | Magdalene.html">Scopri Magdalene!</a></button></div>
+        <div class="col-3"><button class="glow-on-hover" style="margin-top: -1rem; margin-left: 7rem " type="button"><a href="Personaggi | Azazel.html">Scopri Azazel!</a></button></div>
+        <div class="col-3"><button class="glow-on-hover" style="margin-top: -1rem; margin-left: -2rem; " type="button"><a href="Personaggi | TheLost.html">Scopri The Lost!</a></button></div>
     </div>
 
 
 
 <!-- FOOTER -->
-<footer class="footer text-white bg-black">
-    <p>Developed malamende in <a href="#">Bootstrap</a> by <a href="https://Instagram.com/soff1cino">@Soff1cino</a><br><a href="CV.html" class="link">Il mio Curriculum</a><br><br><a href="#">Torna su</a></div></p>
+<footer style="text-align: center; margin-top: 3rem; position: relative;" class="footer text-white bg-black mb-0 mt-3 pt-3">
+    <p style="background-color: black;">Developed malamende in <a href="#">Bootstrap</a> by <a href="https://Instagram.com/soff1cino">@Soff1cino</a><br><a href="CV.html" class="link">Il mio Curriculum</a><br><br><a href="#">Torna su</a></div></p>
 </footer>
 </div>    
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
