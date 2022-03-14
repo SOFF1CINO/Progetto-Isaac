@@ -357,3 +357,24 @@
   margin-top: 1rem;
   padding-bottom: 4rem;
 }
+.title-boss{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.title-obj{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.btn-obj{
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  margin-left: 20.5rem;
+}
+.btn-link{
+  color: white;
+}
+.btn-link:hover{
+  color: #babad1;
+}
